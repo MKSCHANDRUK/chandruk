@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKSCHANDRUK</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+</head>
+<body>
+    <form method="get" action="signin.html" onsubmit="return checkInput()">
+    <h1>kuttyma</h1>
+    <h2>LOG IN</h2>
+    <label>USER NAME</label>
+    <input type="text" id="username">
+    <label>PASSWORD</label>
+    <input type="password" id="password">
+        <button><a>Login</a>
+        </button>
+    </form>
+    <script>
+        function checkInput(){
+            const username = document.getElementById("username");
+            const password = document.getElementById("password");    
+            const usernameValue = username.value.trim();
+            const passwordValue = password.value.trim();
+
+            if(usernameValue!="mkschandruk" || passwordValue!="jan24")
+            {
+                alert("Login faild");
+                return false;
+            }
+            return true;
+
+        }
+    </script>
+</body>
+</html>

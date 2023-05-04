@@ -1,0 +1,161 @@
+body
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 30px;
+    background:linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.747)),url(index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+
+h1
+{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    color: gold;
+}
+label
+{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+h2
+{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: rgb(0, 38, 255);
+}
+h3
+{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: #ff0000;
+}
+h4
+{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: rgb(243, 235, 241);
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    opacity: 10;
+    color: aqua;
+}
+button
+{
+    height: 50%;
+    width: 20%;
+    margin: 3%;
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255,0,255);
+    position: relative;
+    left: 500px;
+    
+    
+
+}
+@media only screen and (max-width:600px)
+{
+    body
+{
+    height:100% 600px;
+    width:min(350px,99vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 30px;
+    background:linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.747)),url(index.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 580px 350px;
+    background-attachment: fixed;
+    background-position: center;
+    
+   
+    
+}
+
+h1
+{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    color: gold;
+}
+label
+{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+h2
+{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    color: rgb(0, 38, 255);
+}
+h3
+{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    color: #ff0000;
+}
+h4
+{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    color: rgb(243, 235, 241);
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    opacity: 10;
+    color: aqua;
+}
+button
+{
+    height: 10%;
+    width: 35%;
+    margin: 3%;
+    font-size: 15px;
+    color: white;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255,0,255);
+    position:relative;
+    left: 80px;
+    display: flex;
+    
+    
+
+}
+}
