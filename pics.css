@@ -1,4 +1,109 @@
 body
 {
-    background-color: blueviolet;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 30px;
+    background:linear-gradient(yellow,red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+.img1
+{
+    float: left;
+    padding: auto;
+    animation: divya;
+    animation-duration: 0.5s;
+    display: flex;
+    
+}
+.img2
+{
+    float: right;
+    padding: auto;
+    animation: kalai;
+    animation-duration: 0.5s;
+    display: flex;
+    
+   
+
+}
+.img3
+{
+    float: left;
+    padding: auto;
+    animation: jaga;
+    animation-duration: 0.5s;
+    display: flex;
+}
+.img4
+{
+    padding: 25%;
+    margin-top: 10px;
+    display: flex;
+}
+.img5
+{
+    padding: 25%;
+    margin-top: 10px;
+    display: flex;
+}
+.img6
+{
+    padding: 25%;
+    display: flex;
+}
+.img7
+{
+    padding: 25%;
+    display: flex;
+}
+.img8
+{
+    padding: 25%;
+    display: flex;
+}
+p{
+    float: right;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 25%;
+    display: flex;
+    
+}
+@keyframes divya
+{
+    from{
+        transform: translateX(-50px);
+    }
+    to
+    {
+        transform: translateX(1px);
+    }
+}
+@keyframes kalai
+{
+    from{
+        transform: translateX(1px);
+    }
+    to
+    {
+        transform: translateX(-50px);
+    }
+}
+@keyframes jaga
+{
+    from{
+        transform: translateX(-50px);
+    }
+    to
+    {
+        transform: translateX(1px);
+    }
+}
+
+
