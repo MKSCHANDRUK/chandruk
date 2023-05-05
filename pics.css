@@ -183,10 +183,12 @@ body
     display: flex;
     justify-content: right;
     align-items: right;
-    
-   
-
 }
+
+label {
+    display: flex;
+    flex-direction: column;
+} 
 .img3
 {
     height: 400px;
