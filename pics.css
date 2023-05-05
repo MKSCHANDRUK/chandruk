@@ -160,6 +160,7 @@ body
 }
 .img1
 {   
+    float: left;
     height: 400px;
     width: 250px;
     padding: auto;
@@ -173,6 +174,7 @@ body
 }
 .img2
 {
+    float: right;
     height: 400px;
     width: 250px;
     margin-right: 50px;
@@ -190,6 +192,7 @@ body
 } 
 .img3
 {
+    float: left;
     height: 400px;
     width: 250px;
     margin-left: 50px;
@@ -228,6 +231,7 @@ body
     display: flex;
 }
 .p1{
+    float: right;
     text-align: center;
     font-size: 20px;
     justify-content: center;
@@ -235,6 +239,7 @@ body
     
 }
 .p2{
+    float: left;
     text-align: center;
     font-size: 20px;
     justify-content: center;
@@ -243,6 +248,7 @@ body
     
 }
 .p3{
+    float: right;
     text-align: center;
     font-size: 20px;
     justify-content: center;
