@@ -127,7 +127,7 @@ body
         transform: translateX(1px);
     }
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:300px){
     body
 {
     height: auto;
