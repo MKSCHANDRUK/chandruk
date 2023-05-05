@@ -163,7 +163,6 @@ body
 {   
     height: 400px;
     width: 250px;
-    float: left;
     padding: auto;
     margin-left: 50px;
     animation: divya;
@@ -177,7 +176,6 @@ body
 {
     height: 400px;
     width: 250px;
-    float: right;
     margin-right: 50px;
     margin-top: 150px;
     animation: kalai;
@@ -193,7 +191,6 @@ body
 {
     height: 400px;
     width: 250px;
-    float: left;
     margin-left: 50px;
     margin-top: 150px;
     animation: jaga;
