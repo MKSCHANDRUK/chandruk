@@ -10,24 +10,38 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 16px;
+}
+
+.img {
+    object-fit: contain;
+}
+
+
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.img1, .img2, .img3, .img4 {
+    object-fit: contain;
 }
 .img1
 {
-    float: left;
     padding: auto;
     animation: divya;
     animation-duration: 0.5s;
     display: flex;
+    border-radius: 10px;
     
 }
-.img2
-{
-    float: right;
+.img2{
+
     padding: auto;
     animation: kalai;
     animation-duration: 0.5s;
     display: flex;
-    
+    border-radius: 10px;
    
 
 }
@@ -38,64 +52,56 @@ body
     animation: jaga;
     animation-duration: 0.5s;
     display: flex;
+    border-radius: 10px;
 }
-.img4
-{
-    padding: 25%;
-    margin-top: 10px;
+ 
+ .d4{
+    display: flexbox;
+    align-items: center;
+ }
+.img{ 
+    margin: 0px;
+    border: 30px;
+    padding: 10%;
     display: flex;
 }
-.img5
-{
-    padding: 25%;
-    margin-top: 10px;
-    display: flex;
-}
-.img6
-{
-    padding: 25%;
-    display: flex;
-}
-.img7
-{
-    padding: 25%;
-    display: flex;
-}
-.img8
-{
-    padding: 25%;
-    display: flex;
-}
+
 .p1{
-    float: right;
     text-align: center;
     font-size: 50px;
     justify-content: center;
     margin-top: 25%;
     display: flex;
+    animation-duration: 1s;
+    overflow: hidden;
+    animation: d1;
     
 }
 .p2{
-    float: left;
     text-align: center;
     font-size: 50px;
     justify-content: center;
     margin-top: 25%;
     display: flex;
+    animation: k1;
+    animation-duration: 1s;
     
 }
 .p3{
     float: right;
     text-align: center;
-    font-size: 50px;
+    font-size: 16px;
     justify-content: center;
     margin-top: 25%;
     display: flex;
+    animation: j1;
+    animation-duration: 1s;
     
 }
 .imgs
 {
     gap: 1px;
+    border-radius: 10px;
 }
 @keyframes divya
 {
@@ -127,12 +133,23 @@ body
         transform: translateX(1px);
     }
 }
-@media only screen and (max-width:300px){
+@keyframes d1
+{
+    from{
+        transform: translateX(50px);
+    }
+    to
+    {
+        transform: translateX(-51px);
+    }
+}
+@media only screen and (max-width:600px){
     body
 {
     height: auto;
-    width: 100%;
+    width: 600px;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     border-left: 30px;
@@ -144,9 +161,10 @@ body
 .img1
 {   
     height: 400px;
-    width: 300px;
+    width: 250px;
     float: left;
     padding: auto;
+    margin-left: 50px;
     animation: divya;
     animation-duration: 0.5s;
     display: flex;
@@ -157,9 +175,10 @@ body
 .img2
 {
     height: 400px;
-    width: 300px;
+    width: 250px;
     float: right;
-    padding: auto;
+    margin-right: 50px;
+    margin-top: 150px;
     animation: kalai;
     animation-duration: 0.5s;
     display: flex;
@@ -172,9 +191,10 @@ body
 .img3
 {
     height: 400px;
-    width: 300px;
+    width: 250px;
     float: left;
-    padding: auto;
+    margin-left: 50px;
+    margin-top: 150px;
     animation: jaga;
     animation-duration: 0.5s;
     display: flex;
@@ -213,7 +233,6 @@ body
     text-align: center;
     font-size: 20px;
     justify-content: center;
-    margin-top: 25%;
     display: flex;
     
 }
